@@ -177,7 +177,6 @@
         select: null,
         items: [
           'A food truck owner',
-          //'An interested party',
           'A general busy body',
           'I\'d rather not say'
         ],
