@@ -1,6 +1,6 @@
 <template>
   <v-app dark class="indigo darken-4">
-    <v-toolbar app class="indigo darken-2">
+    <v-toolbar app flat class="indigo darken-3">
       <v-spacer></v-spacer>
         <v-toolbar-title v-text="title"></v-toolbar-title>
       <v-spacer></v-spacer>
@@ -18,8 +18,9 @@
                 <h1 class="mt-5">Focus on your food.</h1>
                 <!-- <h5 class="mt-4">Adaptab.ly connects your business to your customers more intimately, more completely. And you can adapt it to your needs.</h5> -->
             </v-flex>
-            <v-flex class="text-xs-left pa-4">
-                <!-- <h1 class="mt-5">Focus on your food.</h1> -->
+          </v-layout>
+          <v-layout row wrap>
+            <v-flex class="text-xs-center py-4">
                 <h5>Adaptab.ly connects your business to your customers more intimately, more completely. And you can adapt it to your needs.</h5>
             </v-flex>
           </v-layout>
@@ -28,7 +29,7 @@
               <v-card light class="text-xs-center pa-4 elevation-10">
                   <h3>Your new point of sale is in your customer's pocket</h3>
                   <p>Meet your entirely adaptable system for connecting with your customers. Adaptab.ly allows for ordering from anywhere. Take control of your menu and put it directly into the hands of your customers without the need for additional staff or third party menu systems. Enable ordering on the go or in-store without the need of a cashier.</p>
-                  <v-btn light class="mt-4 amber darken-2">Request a Demo</v-btn>
+                  <v-btn flat light class="mt-4 amber darken-2">Request a Demo</v-btn>
               </v-card>
             </v-flex>
           </v-layout>
