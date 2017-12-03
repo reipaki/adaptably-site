@@ -7,23 +7,23 @@
       <v-spacer></v-spacer>
     </v-toolbar> -->
 
-    <v-content>
+    <!-- <v-content>
       <v-container>
 
         <v-layout row wrap>
 
-          <v-flex xs6 class="text-xs-center">
+          <v-flex xs6 class="text-xs-center"> -->
             <!-- <v-carousel :cycle="true" hide-controls="true" class="elevation-0" interval="2000" left-control-icon="false" right-control-icon="false">
               <v-carousel-item v-for="(item,i) in pics" :key="i" :src="item" transition="fade"></v-carousel-item>
             </v-carousel> -->
-          </v-flex>
+          <!-- </v-flex>
 
           <v-flex xs6 class="text-xs-left pt-4 pl-4 pr-4">
-            <h1 class="mt-5">Focus on your food.</h1>
+            <h1 class="mt-5">Focus on your food.</h1> -->
             <!-- <h5 class="mt-4">Adaptab.ly connects your business to your customers more intimately, more completely. And you can adapt it to your needs.</h5> -->
-          </v-flex>
+          <!-- </v-flex>
 
-        </v-layout>
+        </v-layout> -->
 
         <!-- <v-layout row wrap>
           <v-flex class="text-xs-center py-4">
@@ -106,7 +106,7 @@
           </v-flex>
 
         </v-layout> -->
-      </v-container>
+      <!-- </v-container>
 
 			<div class="form grey darken-4 pb-4">
 	      <v-container>
@@ -115,7 +115,7 @@
 	          <v-flex xs12 sm10 md8 offset-sm1 offset-md2>
 		          <h3 class="mt-5 text-xs-center">Like to know more? Get in touch.</h3>
 
-		          <v-form class="mt-5">
+		          <v-form class="mt-5"> -->
 
 			          <!-- <v-text-field
 			            label="Your Name"
@@ -157,7 +157,7 @@
 			          <v-btn light class="amber darken-2" @click="submit">submit</v-btn>
 			          <v-btn light class="amber darken-2" @click="clear">clear</v-btn> -->
 
-			        </v-form>
+			        <!-- </v-form>
 
 		        </v-flex>
 
@@ -171,7 +171,7 @@
       <v-flex class="text-xs-center py-4 mt-2">
         <span>&copy; 2017 Adaptab.ly – Customer-powered Point of Sale for Food Trucks</span>
       </v-flex>
-    </v-footer>
+    </v-footer> -->
 
   </v-app>
 </template>
