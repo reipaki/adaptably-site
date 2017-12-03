@@ -167,7 +167,7 @@
 
     </v-content>
 
-    <v-footer :fixed="fixed" app>
+    <v-footer :fixed="true" app>
       <v-flex class="text-xs-center py-4 mt-2">
         <span>&copy; 2017 Adaptab.ly – Customer-powered Point of Sale for Food Trucks</span>
       </v-flex>
