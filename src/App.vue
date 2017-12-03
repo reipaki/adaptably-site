@@ -13,9 +13,9 @@
         <v-layout row wrap>
 
           <v-flex xs6 class="text-xs-center">
-            <v-carousel :cycle="true" hide-controls="true" class="elevation-0" interval="2000" left-control-icon="false" right-control-icon="false">
+            <!-- <v-carousel :cycle="true" hide-controls="true" class="elevation-0" interval="2000" left-control-icon="false" right-control-icon="false">
               <v-carousel-item v-for="(item,i) in pics" :key="i" :src="item" transition="fade"></v-carousel-item>
-            </v-carousel>
+            </v-carousel> -->
           </v-flex>
 
           <v-flex xs6 class="text-xs-left pt-4 pl-4 pr-4">
