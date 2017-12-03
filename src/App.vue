@@ -19,24 +19,24 @@
           </v-flex>
 
           <v-flex xs6 class="text-xs-left pt-4 pl-4 pr-4">
-              <h1 class="mt-5">Focus on your food.</h1>
-              <!-- <h5 class="mt-4">Adaptab.ly connects your business to your customers more intimately, more completely. And you can adapt it to your needs.</h5> -->
+            <h1 class="mt-5">Focus on your food.</h1>
+            <!-- <h5 class="mt-4">Adaptab.ly connects your business to your customers more intimately, more completely. And you can adapt it to your needs.</h5> -->
           </v-flex>
 
         </v-layout>
 
         <v-layout row wrap>
           <v-flex class="text-xs-center py-4">
-              <h5>Adaptab.ly connects your business to your customers more intimately, more completely. And you can adapt it to your needs.</h5>
+            <h5>Adaptab.ly connects your business to your customers more intimately, more completely. And you can adapt it to your needs.</h5>
           </v-flex>
         </v-layout>
 
         <v-layout row>
           <v-flex>
             <v-card light class="text-xs-center pa-4 elevation-10">
-                <h3>Your new point of sale is in your customer's pocket</h3>
-                <p>Meet your entirely adaptable system for connecting with your customers. Adaptab.ly allows for ordering from anywhere. Take control of your menu and put it directly into the hands of your customers without the need for additional staff or third party menu systems. Enable ordering on the go or in-store without the need of a cashier.</p>
-                <v-btn flat light class="mt-4 amber darken-2">Request a Demo</v-btn>
+              <h3>Your new point of sale is in your customer's pocket</h3>
+              <p>Meet your entirely adaptable system for connecting with your customers. Adaptab.ly allows for ordering from anywhere. Take control of your menu and put it directly into the hands of your customers without the need for additional staff or third party menu systems. Enable ordering on the go or in-store without the need of a cashier.</p>
+              <v-btn flat light class="mt-4 amber darken-2">Request a Demo</v-btn>
             </v-card>
           </v-flex>
         </v-layout>
@@ -108,65 +108,67 @@
         </v-layout>
       </v-container>
 
-      <v-container fluid class="grey darken-4">
-        <v-layout row>
+			<div class="form grey darken-4 pb-4">
+	      <v-container>
+	        <v-layout row wrap>
 
-          <v-flex xs8 offset-xs2>
-	          <h3 class="mt-5 text-xs-center">Like to know more? Get in touch.</h3>
+	          <v-flex xs12 sm10 md8 offset-sm1 offset-md2>
+		          <h3 class="mt-5 text-xs-center">Like to know more? Get in touch.</h3>
 
-	          <v-form class="mt-5">
+		          <v-form class="mt-5">
 
-		          <v-text-field
-		            label="Your Name"
-		            v-model="name"
-		            :error-messages="nameErrors"
-		            :counter="10"
-		            @input="$v.name.$touch()"
-		            @blur="$v.name.$touch()"
-		            required
-		          ></v-text-field>
+			          <!-- <v-text-field
+			            label="Your Name"
+			            v-model="name"
+			            :error-messages="nameErrors"
+			            :counter="10"
+			            @input="$v.name.$touch()"
+			            @blur="$v.name.$touch()"
+			            required
+			          ></v-text-field>
 
-		          <v-text-field
-		            label="E-mail address"
-		            v-model="email"
-		            :error-messages="emailErrors"
-		            @input="$v.email.$touch()"
-		            @blur="$v.email.$touch()"
-		            required
-		          ></v-text-field>
+			          <v-text-field
+			            label="E-mail address"
+			            v-model="email"
+			            :error-messages="emailErrors"
+			            @input="$v.email.$touch()"
+			            @blur="$v.email.$touch()"
+			            required
+			          ></v-text-field>
 
-		          <v-select
-		            label="I'm a..."
-		            v-model="select"
-		            :items="items"
-		            :error-messages="selectErrors"
-		            @change="$v.select.$touch()"
-		            @blur="$v.select.$touch()"
-		            required
-		          ></v-select>
+			          <v-select
+			            label="I'm a..."
+			            v-model="select"
+			            :items="items"
+			            :error-messages="selectErrors"
+			            @change="$v.select.$touch()"
+			            @blur="$v.select.$touch()"
+			            required
+			          ></v-select>
 
-		          <v-checkbox
-		            label="I'd like to hear more from you crazy kids!"
-		            v-model="checkbox"
-		            :error-messages="checkboxErrors"
-		            @change="$v.checkbox.$touch()"
-		            @blur="$v.checkbox.$touch()"
-		          ></v-checkbox>
+			          <v-checkbox
+			            label="I'd like to hear more from you crazy kids!"
+			            v-model="checkbox"
+			            :error-messages="checkboxErrors"
+			            @change="$v.checkbox.$touch()"
+			            @blur="$v.checkbox.$touch()"
+			          ></v-checkbox>
 
-		          <v-btn light class="amber darken-2" @click="submit">submit</v-btn>
-		          <v-btn light class="amber darken-2" @click="clear">clear</v-btn>
+			          <v-btn light class="amber darken-2" @click="submit">submit</v-btn>
+			          <v-btn light class="amber darken-2" @click="clear">clear</v-btn> -->
 
-		        </v-form>
+			        </v-form>
 
-	        </v-flex>
+		        </v-flex>
 
-        </v-layout>
-      </v-container>
+	        </v-layout>
+	      </v-container>
+			</div>
 
     </v-content>
 
     <v-footer :fixed="fixed" app>
-      <v-flex xs10 offset-xs1 mt-4 mb-4 class="text-xs-center">
+      <v-flex class="text-xs-center py-4 mt-2">
         <span>&copy; 2017 Adaptab.ly – Customer-powered Point of Sale for Food Trucks</span>
       </v-flex>
     </v-footer>
