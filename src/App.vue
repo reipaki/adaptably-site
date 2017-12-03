@@ -189,40 +189,40 @@
     // },
     data () {
       return {
-        pics:[
-          '/public/foodtruck01.png',
-          '/public/foodtruck02.png',
-          '/public/foodtruck03.png',
-          '/public/foodtruck04.png',
-          '/public/foodtruck05.png',
-          '/public/foodtruck06.png',
-          '/public/foodtruck07.png',
-          '/public/foodtruck08.png',
-          '/public/foodtruck09.png',
-          '/public/foodtruck10.png'],
-        title: 'Adaptab.ly - Customer-powered Point of Sale for Food Trucks',
-        name: '',
-        email: '',
-        select: null,
-        items: [
-          'A food truck owner',
-          'A general busy body',
-          'I\'d rather not say'
-        ],
-        checkbox: false
+        // pics:[
+        //   '/public/foodtruck01.png',
+        //   '/public/foodtruck02.png',
+        //   '/public/foodtruck03.png',
+        //   '/public/foodtruck04.png',
+        //   '/public/foodtruck05.png',
+        //   '/public/foodtruck06.png',
+        //   '/public/foodtruck07.png',
+        //   '/public/foodtruck08.png',
+        //   '/public/foodtruck09.png',
+        //   '/public/foodtruck10.png'],
+        // title: 'Adaptab.ly - Customer-powered Point of Sale for Food Trucks',
+        // name: '',
+        // email: '',
+        // select: null,
+        // items: [
+        //   'A food truck owner',
+        //   'A general busy body',
+        //   'I\'d rather not say'
+        // ],
+        // checkbox: false
       }
     },
     methods: {
-      submit () {
-        this.$v.$touch()
-      },
-      clear () {
-        this.$v.$reset()
-        this.name = ''
-        this.email = ''
-        this.select = null
-        this.checkbox = false
-      }
+      // submit () {
+      //   this.$v.$touch()
+      // },
+      // clear () {
+      //   this.$v.$reset()
+      //   this.name = ''
+      //   this.email = ''
+      //   this.select = null
+      //   this.checkbox = false
+      // }
     },
     computed: {
       // checkboxErrors () {
