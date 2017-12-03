@@ -1,11 +1,11 @@
 <template>
   <v-app dark class="indigo darken-4">
 
-    <v-toolbar app flat class="indigo darken-3">
+    <!-- <v-toolbar app flat class="indigo darken-3">
       <v-spacer></v-spacer>
         <v-toolbar-title v-text="title"></v-toolbar-title>
       <v-spacer></v-spacer>
-    </v-toolbar>
+    </v-toolbar> -->
 
     <v-content>
       <v-container>
@@ -25,7 +25,7 @@
 
         </v-layout>
 
-        <v-layout row wrap>
+        <!-- <v-layout row wrap>
           <v-flex class="text-xs-center py-4">
             <h5>Adaptab.ly connects your business to your customers more intimately, more completely. And you can adapt it to your needs.</h5>
           </v-flex>
@@ -41,7 +41,7 @@
           </v-flex>
         </v-layout>
 
-        <h3 class="mt-5 text-xs-center pa-1">Adaptab.ly has been crafted for...</h3>
+        <h3 class="mt-5 text-xs-center pa-1">Adaptab.ly has been crafted for...</h3> -->
 
         <!-- <v-layout row wrap>
 
@@ -177,16 +177,16 @@
 </template>
 
 <script>
-  import { validationMixin } from 'vuelidate'
-  import { required, maxLength, email } from 'vuelidate/lib/validators'
+  // import { validationMixin } from 'vuelidate'
+  // import { required, maxLength, email } from 'vuelidate/lib/validators'
 
   export default {
-    mixins: [validationMixin],
-    validations: {
-      name: { required, maxLength: maxLength(10) },
-      email: { required, email },
-      select: { required }
-    },
+    // mixins: [validationMixin],
+    // validations: {
+    //   name: { required, maxLength: maxLength(10) },
+    //   email: { required, email },
+    //   select: { required }
+    // },
     data () {
       return {
         pics:[
