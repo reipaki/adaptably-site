@@ -43,7 +43,7 @@
 
         <h3 class="mt-5 text-xs-center pa-1">Adaptab.ly has been crafted for...</h3>
 
-        <v-layout row wrap>
+        <!-- <v-layout row wrap>
 
           <v-flex xs4 class="text-xs-center pa-2">
             <v-card>
@@ -105,7 +105,7 @@
             <v-btn light class="mb-3 amber darken-2">View the example</v-btn>
           </v-flex>
 
-        </v-layout>
+        </v-layout> -->
       </v-container>
 
 			<div class="form grey darken-4 pb-4">
